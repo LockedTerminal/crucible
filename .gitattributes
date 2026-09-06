@@ -1,0 +1,42 @@
+# Rust
+*.rs diff=rust
+Cargo.toml diff=toml
+Cargo.lock diff=toml
+
+# JavaScript/TypeScript
+*.js diff=javascript
+*.ts diff=typescript
+*.tsx diff=typescript
+*.jsx diff=javascript
+package.json diff=json
+package-lock.json diff=json
+tsconfig.json diff=json
+
+# SQL
+*.sql diff=sql
+
+# Protocol Buffers
+*.proto diff=proto
+
+# Markdown
+*.md diff=markdown
+
+# YAML
+*.yml diff=yaml
+*.yaml diff=yaml
+
+# JSON
+*.json diff=json
+
+# Docker
+Dockerfile diff=docker
+*.dockerignore export-ignore
+
+# Shell
+*.sh diff=shell
+
+# Vendored code (don't count toward language stats)
+vendor/ export-ignore
+node_modules/ export-ignore
+target/ export-ignore
+.git/ export-ignore
